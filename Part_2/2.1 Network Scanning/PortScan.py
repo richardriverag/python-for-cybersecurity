@@ -15,6 +15,7 @@ def DNSScan(host):
     if ans:
         print("DNS Server at %s"%host)
     
+# DNS Google
 host = "8.8.8.8"
 
 SynScan(host)
